@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <!--
+  Copyright (c) 2010 The Native Client Authors. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+  -->
+  <head>
+    <title>Wiggly Widget</title>
+      <script type="text/javascript">
+
+      var qtPlugin = null;
+
+      function moduleDidLoad() {
+        console.log("Loaded")
+        qtPlugin = document.getElementById('wiggly');
+      }
+
+    </script>
+
+  </head>
+  <body>
+    Wiggly Widget<br>
+    <embed name="nacl_module"
+           id="wiggly"
+           width=400 height=300
+           nacl="wiggly.nmf"
+           type="application/x-nacl"
+           dimensions="2"
+           onload="moduleDidLoad();" />
+  </body>
+</HTML>
