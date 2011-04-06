@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>QuickSalt </title>
+      <script type="text/javascript">
+
+      var qtPlugin = null;
+      var paintInterval = null;
+
+      function moduleDidLoad() {
+        document.getElementById('loading').style.visibility = 'hidden'
+        document.getElementById('examples').style.visibility = 'visible'
+
+        qtPlugin = document.getElementById('quick');
+        qtPlugin.setDefaultUrl("qml/startup/startup.qml")
+        qtPlugin.loadDefaultUrl();
+      }
+
+      function loadExample(url) {
+         qtPlugin.load(url)
+      }
+
+      function pageDidUnload() {
+
+      }
+    </script>
+
+  </head>
+  <body>
+    <h2>Qt Quick for Native Client</h2>
+    <div id="loading"> Loading, please wait.</div>
+    <div id="examples" style="visibility:hidden; float:left">
+
+    <!-- a href="quick.html" onClick="loadExample('qml/animation/basics/property-animation.qml'); return false;">Animation-property<br></a --!>
+    <!--a href="quick.html" onClick="loadExample('qml/animation/easing/easing.qml'); return false;">Animation-easing<br></a --!>
+    <a href="quick.html" onClick="loadExample('qml/toys/clocks/clocks.qml'); return false;">Clocks<br></a>
+    <a href="quick.html" onClick="loadExample('qml/calculator/calculator.qml'); return false;">Calculator<br></a>
+    <a href="quick.html" onClick="loadExample('qml/toys/corkboards/corkboards.qml'); return false;">Corkboards<br></a>
+
+    </div>
+    
+    <embed name="nacl_module"
+           id="quick"
+           width=800 height=480
+           nacl="quick.nmf"
+           type="application/x-nacl"
+           dimensions="2"
+           onload="moduleDidLoad();"
+           style="float:left; margin-left : 20"/>
+  </body>
+</HTML>
