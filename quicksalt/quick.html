@@ -16,6 +16,7 @@
       }
 
       function loadExample(url) {
+         qtPlugin.setDefaultUrl("qml/startup/startup.qml")
          qtPlugin.load(url)
       }
 
@@ -30,11 +31,10 @@
     <div id="loading"> Loading, please wait.</div>
     <div id="examples" style="visibility:hidden; float:left">
 
-    <!-- a href="quick.html" onClick="loadExample('qml/animation/basics/property-animation.qml'); return false;">Animation-property<br></a --!>
-    <!--a href="quick.html" onClick="loadExample('qml/animation/easing/easing.qml'); return false;">Animation-easing<br></a --!>
-    <a href="quick.html" onClick="loadExample('qml/toys/clocks/clocks.qml'); return false;">Clocks<br></a>
-    <a href="quick.html" onClick="loadExample('qml/calculator/calculator.qml'); return false;">Calculator<br></a>
-    <a href="quick.html" onClick="loadExample('qml/toys/corkboards/corkboards.qml'); return false;">Corkboards<br></a>
+    <a href="index.html" onClick="loadExample('qml/startup/startup.qml'); return false;">Intro<br></a>
+    <a href="index.html" onClick="loadExample('qml/toys/clocks/clocks.qml'); return false;">Clocks<br></a>
+    <a href="index.html" onClick="loadExample('qml/calculator/calculator.qml'); return false;">Calculator<br></a>
+    <a href="index.html" onClick="loadExample('qml/toys/corkboards/corkboards.qml'); return false;">Corkboards<br></a>
 
     </div>
     
