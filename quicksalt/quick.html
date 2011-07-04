@@ -35,16 +35,21 @@
     <a href="index.html" onClick="loadExample('qml/toys/clocks/clocks.qml'); return false;">Clocks<br></a>
     <a href="index.html" onClick="loadExample('qml/calculator/calculator.qml'); return false;">Calculator<br></a>
     <a href="index.html" onClick="loadExample('qml/toys/corkboards/corkboards.qml'); return false;">Corkboards<br></a>
+    <a href="index.html" onClick="loadExample('qml/presentation/SlideDeck.qml'); return false;">Prensentation<br></a>
+</div>
 
-    </div>
+    <div id="listener">
+        <script type="text/javascript">
+            document.getElementById('listener')
+               .addEventListener('load', moduleDidLoad, true);
+        </script>
     
-    <embed name="nacl_module"
+        <embed name="nacl_module"
            id="quick"
            width=800 height=480
-           nacl="quick.nmf"
+           src="quick.nmf"
            type="application/x-nacl"
-           dimensions="2"
-           onload="moduleDidLoad();"
            style="float:left; margin-left : 20"/>
-  </body>
+    </div>
+</body>
 </HTML>

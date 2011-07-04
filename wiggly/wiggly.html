@@ -8,24 +8,13 @@
   -->
   <head>
     <title>Wiggly Widget</title>
-      <script type="text/javascript">
-
-      var qtPlugin = null;
-
-      function moduleDidLoad() {
-        console.log("Loaded")
-        qtPlugin = document.getElementById('wiggly');
-      }
-
-    </script>
-
   </head>
   <body>
     Wiggly Widget<br>
     <embed name="nacl_module"
            id="wiggly"
            width=400 height=300
-           nacl="wiggly.nmf"
+           src="wiggly.nmf"
            type="application/x-nacl"
            dimensions="2"
            onload="moduleDidLoad();" />
