@@ -1,6 +1,6 @@
 {
-  "nexes": {
-    "x86-32": "quick.nexe"
+  "program": {
+    "x86-32": { "url" : "quick.nexe" }
   }
 }
 

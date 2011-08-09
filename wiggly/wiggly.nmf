@@ -1,6 +1,6 @@
 {
-  "nexes": {
-    "x86-32": "wiggly.nexe"
+  "program": {
+    "x86-32": { "url" : "wiggly.nexe" }
   }
 }
 

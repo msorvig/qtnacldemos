@@ -11,13 +11,13 @@
         document.getElementById('examples').style.visibility = 'visible'
 
         qtPlugin = document.getElementById('quick');
-        qtPlugin.setDefaultUrl("qml/startup/startup.qml")
-        qtPlugin.loadDefaultUrl();
+        qtPlugin.postMessage("setDefaultUrl:qml/startup/startup.qml")
+        qtPlugin.postMessage("loadDefaultUrl")
       }
 
       function loadExample(url) {
-         qtPlugin.setDefaultUrl("qml/startup/startup.qml")
-         qtPlugin.load(url)
+         qtPlugin.postMessage("setDefaultUrl:qml/startup/startup.qml")
+         qtPlugin.postMessage("load:" + url)
       }
 
       function pageDidUnload() {
