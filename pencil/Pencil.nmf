@@ -99,6 +99,16 @@
       "x86-32": {
          "url": "x86-32/libstdc++.so.6"
        }
+    },
+    "runnable-ld.so": {
+      "x86-32": {
+         "url": "x86-32/runnable-ld.so"
+       }
+    },
+    "libqtpepper.so": {
+      "x86-32": {
+         "url": "x86-32/libqtpepper.so"
+       }
     }
   },
   "program": {
