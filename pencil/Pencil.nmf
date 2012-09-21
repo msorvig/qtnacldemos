@@ -1,0 +1,109 @@
+{
+  "files": {
+    "main.nexe": {
+      "x86-32": {
+         "url": "x86-32/Pencil.nexe"
+       }
+    },
+    "libqtpepper.so": {
+      "x86-32": {
+         "url": "x86-32/libqtpepper.so"
+       }
+    },
+    "ld-nacl-x86-32.so.1": {
+      "x86-32": {
+         "url": "x86-32/ld-nacl-x86-32.so.1"
+       }
+    },
+    "libQtCore.so.5": {
+      "x86-32": {
+         "url": "x86-32/libQtCore.so.5"
+       }
+    },
+    "libQtGui.so.5": {
+      "x86-32": {
+         "url": "x86-32/libQtGui.so.5"
+       }
+    },
+    "libQtWidgets.so.5": {
+      "x86-32": {
+         "url": "x86-32/libQtWidgets.so.5"
+       }
+    },
+    "libQtXml.so.5": {
+      "x86-32": {
+         "url": "x86-32/libQtXml.so.5"
+       }
+    },
+    "libc.so.32d9fc17": {
+      "x86-32": {
+         "url": "x86-32/libc.so.32d9fc17"
+       }
+    },
+    "libdl.so.32d9fc17": {
+      "x86-32": {
+         "url": "x86-32/libdl.so.32d9fc17"
+       }
+    },
+    "libgcc_s.so.1": {
+      "x86-32": {
+         "url": "x86-32/libgcc_s.so.1"
+       }
+    },
+    "libgio.so": {
+      "x86-32": {
+         "url": "x86-32/libgio.so"
+       }
+    },
+    "libimc_syscalls.so": {
+      "x86-32": {
+         "url": "x86-32/libimc_syscalls.so"
+       }
+    },
+    "libm.so.32d9fc17": {
+      "x86-32": {
+         "url": "x86-32/libm.so.32d9fc17"
+       }
+    },
+    "libplatform.so": {
+      "x86-32": {
+         "url": "x86-32/libplatform.so"
+       }
+    },
+    "libppapi_cpp.so": {
+      "x86-32": {
+         "url": "x86-32/libppapi_cpp.so"
+       }
+    },
+    "libppapi_gles2.so": {
+      "x86-32": {
+         "url": "x86-32/libppapi_gles2.so"
+       }
+    },
+    "libppruntime.so": {
+      "x86-32": {
+         "url": "x86-32/libppruntime.so"
+       }
+    },
+    "libpthread.so.32d9fc17": {
+      "x86-32": {
+         "url": "x86-32/libpthread.so.32d9fc17"
+       }
+    },
+    "libsrpc.so": {
+      "x86-32": {
+         "url": "x86-32/libsrpc.so"
+       }
+    },
+    "libstdc++.so.6": {
+      "x86-32": {
+         "url": "x86-32/libstdc++.so.6"
+       }
+    }
+  },
+  "program": {
+    "x86-32": {
+       "url": "x86-32/runnable-ld.so"
+     }
+  }
+}
